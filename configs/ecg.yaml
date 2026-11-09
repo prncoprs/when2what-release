@@ -1,0 +1,11 @@
+# ECG (VitalDB lead II, 500 Hz): 120-s history -> 60-s forecast. Values not listed use the defaults in
+# when2what/config.py, which are the settings of Supplementary Table S2.
+signal: ecg
+data_dir: data/vitaldb/ecg
+history_s: 120
+horizon_s: 60
+peak_sigma_s: 0.010
+lr: 3.0e-4
+warmup_steps: 3000
+max_steps: 60000
+batch_size: 24

@@ -1,0 +1,7 @@
+# Arterial blood pressure (VitalDB ART, 500 Hz). Same architecture and recipe as ECG; signal-specific
+# filter (10-Hz low-pass), timing target width and commit rule.
+signal: abp
+data_dir: data/vitaldb/abp
+peak_sigma_s: 0.005
+commit_window_s: 5.0
+commit_floor: 0.15

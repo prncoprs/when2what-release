@@ -1,0 +1,7 @@
+# Finger photoplethysmogram (VitalDB PLETH, 500 Hz). Same architecture and recipe as ECG; signal-specific
+# filter (0.5-8 Hz band-pass), timing target width and commit rule.
+signal: ppg
+data_dir: data/vitaldb/ppg
+peak_sigma_s: 0.020
+commit_window_s: 10.0
+commit_floor: 0.10

@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+data/
+runs/
+preds/
+results/
+*.pt
+*.npz
+*.npy
+.pytest_cache/

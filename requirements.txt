@@ -1,0 +1,11 @@
+# Install PyTorch with CUDA support first (https://pytorch.org), then mamba-ssm and causal-conv1d built
+# against the same CUDA toolkit. The versions used for the paper are given in the comments.
+torch>=2.4            # 2.12.0 (CUDA 13.0)
+mamba-ssm>=2.2        # 2.3.2.post1
+causal-conv1d>=1.4    # 1.6.2.post1
+numpy>=1.26           # 2.4.6
+scipy>=1.11           # 1.17.1
+neurokit2>=0.2.7      # 0.2.13
+vitaldb>=1.4          # 1.6.4
+pyyaml>=6.0
+pytest>=7.0
